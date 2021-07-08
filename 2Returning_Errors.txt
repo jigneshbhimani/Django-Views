@@ -1,0 +1,18 @@
+# Django provides various built-in error classes that are the subclass of HttpResponse and use to show error message as HTTP resonse.
+
+
+Class                               Description
+
+class                               Used to designate that page hasn't been modified dince that
+HttpResponseNotModified             user's last request (304).
+
+class                               acts just like HttpResponse but uses 400 status code.
+HttpResponseBadRequest
+
+class                               acts just like HttpResponse but uses 404 status code.
+HttpResponseNotFound
+
+class                               acts just like HttpResponse but uses 410 status code.
+HttpResponseNotAllowed
+
+HttpResponseServerError             acts just like HttpResponse but uses 500 status code.
